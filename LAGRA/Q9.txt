@@ -1,0 +1,1 @@
+projects join (project[city](projects)minus (project[city](suppliers)));

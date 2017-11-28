@@ -1,0 +1,1 @@
+project[sno,sname](select [pname='Nut'](spj join suppliers join (project[pno,pname](parts)))) intersect project[sno,sname](select [pname='Bolt'](spj join suppliers join (project[pno,pname](parts))));

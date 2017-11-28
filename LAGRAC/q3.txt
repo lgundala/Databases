@@ -1,0 +1,3 @@
+project[coursenum,quarter](enroll minus (enroll join project[coursenum,quarter](bookadoption)));
+
+exit;

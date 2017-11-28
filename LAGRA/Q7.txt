@@ -1,0 +1,1 @@
+project[name](student join (project[ssn,coursenum](enroll)join select[bookisbn=2012000](bookadoption)join text));

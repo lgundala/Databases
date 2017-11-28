@@ -1,0 +1,5 @@
+project[fname,lname,hours,pname,dname](project[dname,dno](rename[dname,dno,mgrssn,migdate](department)) join
+project[pname,pno](rename[pname,pno,ploc,dno](projects)) join
+project[fname,lname,ssn,dno](employee) join (project[ssn,pno,hours](rename[ssn,pno,hours](select[hours<10.0](works_on)))));
+
+exit;

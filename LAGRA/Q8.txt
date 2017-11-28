@@ -1,0 +1,1 @@
+project[coursenum,quarter](select[quarter='sp04'](enroll))minus project[coursenum,quarter](select[quarter='sp06'](enroll));

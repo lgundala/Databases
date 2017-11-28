@@ -1,0 +1,3 @@
+project[sno](spj) minus project[sno]((project[sno](spj) times project[pno](select[city<>'Marietta'](parts)))minus project[sno,pno](spj));
+
+exit;

@@ -1,0 +1,1 @@
+project[zipc,zip]((project[cno,zipc](rename[cno,cname,str,zipc,ph](customers))times(project[eno,zip](employees))) minus (project[cno,zipc,eno,zip](project[cno,eno](orders) join(project[cno,zipc](rename[cno,cname,str,zipc,ph](customers)))join(project[eno,zip](employees)))));

@@ -1,0 +1,1 @@
+project[lname,sid,term,secno,ctitle](select[fname='Nandita'](enrolls join catalogue join courses join students));

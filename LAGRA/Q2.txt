@@ -1,0 +1,1 @@
+project[fname,lname,dname,dno,mgrstartdate](project[dname,dno,ssn,mgrstartdate](rename[dname,dno,ssn,mgrstartdate](department))join employee);

@@ -1,0 +1,3 @@
+project[quarter,coursenum](enroll join bookadoption);
+
+exit;

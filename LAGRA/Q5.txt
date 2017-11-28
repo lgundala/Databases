@@ -1,0 +1,1 @@
+project[cno,cname,phone,ono,shipped](select[zip=67226](customers join zipcodes join orders));

@@ -1,0 +1,1 @@
+project[fname,lname,dno](employee)join(project[dname,dno](rename[dname,dno,mgrssn,mgrstartdate](department)))join(project[dno,dlocation](rename[dno,dlocation](dept_locations)));

@@ -1,0 +1,1 @@
+project[sid,fname,lname,term,secno,ctitle](select[term='sp97'](enrolls join catalogue join courses join students));

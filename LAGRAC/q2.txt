@@ -1,0 +1,4 @@
+project[dname,fname,lname](rename[dname,dnumber,ssn,mgrdate](department) join (select [dlocation='Sugarland'](dept_locations)) join
+project[fname,lname,ssn](employee));
+
+exit;
